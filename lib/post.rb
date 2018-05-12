@@ -6,7 +6,7 @@ class Post
     @genre = genre
   end
 
-  def author_name
+  def author_name(name = nil)
     name = Author.new(name)
     author = name
   end
