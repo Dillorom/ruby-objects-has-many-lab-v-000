@@ -8,6 +8,6 @@ class Post
 
   def author_name(name = nil)
     name = Author.new(name)
-    author = name
+    post.author = name
   end
 end
